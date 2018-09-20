@@ -1,6 +1,30 @@
 .grid {
     display: grid;
     height: 100vh;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: repeat(10, 10%);
+    background-color: #f8c8ac;
+} 
+
+.logo {
+    grid-column: 2 / 3;
+    grid-row-start: 2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid {
+    display: grid;
+    height: 100vh;
     grid-template-columns: 0.7fr 1.3fr 0.5fr 1.5fr;
     grid-template-rows: 0.2fr 0.8fr 5fr;
     background-color: bisque;
@@ -25,4 +49,4 @@
     grid-row: 4 / 5;
     display: block;
     z-index: 2;
-}
+} */
