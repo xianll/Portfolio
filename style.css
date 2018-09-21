@@ -1,14 +1,64 @@
 .grid {
     display: grid;
     height: 100vh;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: repeat(10, 10%);
+    width: 375px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);    
     background-color: #f8c8ac;
+    /* overflow: hidden; */
 } 
 
 .logo {
-    grid-column: 2 / 3;
-    grid-row-start: 2
+    grid-column: 2 / 4;
+    grid-row-start: 2;
+}
+
+#aboutme_building {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    background: url("/assets/svg/aboutme_building.svg");
+    background-size: 100% 100%;  
+}
+#resume_building {
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    background: url("/assets/svg/resume_building.svg");
+    background-size: auto 110%;
+}
+#yellow_building {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 11;
+    background: url("/assets/svg/yellow_building.svg");
+    background-size: auto 110%;
+    /* background-position: center bottom; */
+    padding-right: 30px;
+
+}
+#contact_building {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background: url("/assets/svg/contact_building.svg");
+    background-size: auto auto;
+
+}
+#pink_building {
+    grid-column-start:;
+    grid-column-end:;
+    grid-row-start:;
+    grid-row-end:;
+    background: url("/assets/svg/yellow_building.svg");
+    background-size: auto auto;
+    grid-column: 6 / 10;
+    grid-row: 10 / 11;
+  
 }
 
 
@@ -21,6 +71,10 @@
 
 
 
+
+
+
+ 
 
 /* .grid {
     display: grid;
