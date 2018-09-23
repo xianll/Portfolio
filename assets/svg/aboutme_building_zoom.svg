@@ -1,0 +1,24 @@
+<svg width="327" height="477" viewBox="0 0 327 477" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="25" y="53" width="248" height="424" fill="#C4C4C4"/>
+<path d="M102 1H327L272 412H102V1Z" fill="#F8B300"/>
+<rect x="231" y="366" width="29" height="92" fill="#FF795B"/>
+<line x1="102" y1="0.5" x2="327" y2="0.5" stroke="black"/>
+<line x1="102.5" y1="1" x2="102.5" y2="412" stroke="black"/>
+<line x1="102" y1="411.5" x2="231" y2="411.5" stroke="black"/>
+<line x1="260" y1="411.5" x2="273" y2="411.5" stroke="black"/>
+<line x1="272.504" y1="411.935" x2="326.504" y2="0.934872" stroke="black"/>
+<line x1="231.5" y1="366" x2="231.5" y2="458" stroke="black"/>
+<line x1="231" y1="365.5" x2="260" y2="365.5" stroke="black"/>
+<line x1="260.5" y1="366" x2="260.5" y2="458" stroke="black"/>
+<line x1="260" y1="458.5" x2="231" y2="458.5" stroke="black"/>
+<line x1="102" y1="53.5" x2="25" y2="53.5" stroke="black"/>
+<line x1="25.5" y1="53" x2="25.5" y2="477" stroke="black"/>
+<line x1="25" y1="476.5" x2="273" y2="476.5" stroke="black"/>
+<line x1="272.5" y1="477" x2="272.5" y2="412" stroke="black"/>
+<path d="M1 27H102V53H24.546L1 27Z" fill="#C4C4C4"/>
+<path d="M1 28L25 52.8341V477H1V28Z" fill="#C4C4C4"/>
+<line x1="24.6393" y1="53.3463" x2="0.639308" y2="28.3463" stroke="black"/>
+<line x1="1" y1="26.5" x2="102" y2="26.5" stroke="black"/>
+<line x1="1.5" y1="28" x2="1.5" y2="477" stroke="black"/>
+<line x1="1" y1="476.5" x2="25" y2="476.5" stroke="black"/>
+</svg>

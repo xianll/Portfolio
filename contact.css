@@ -1,0 +1,43 @@
+#grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 9.5fr 2fr 4fr;
+    grid-template-rows: 2fr 2fr 3fr 0.5fr 8fr 10fr 1fr;
+    height: 100vh;
+}
+body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-size: 1em;
+    background: #ff795b;
+}
+#contact_building {
+    background: url("/assets/svg/contact_building.svg");
+    grid-column: 2 / 7;
+    grid-row: 2/ 8;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#text_background {
+    background: #f8b300;
+    grid-column: 4 / 5;
+    grid-row: 5 / 7;
+    padding-top: 10px;
+}
+#contact_sign {
+    font-family: Monoton;
+    font-size: 2.6em;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    padding-top: 10px;
+    justify-self: center;
+}
+#contact_form {
+    font-family: 'Abel', sans-serif;
+    grid-column: 4 / 5;
+    grid-row: 4 / 6; 
+    padding-top: 15px;
+}
+#socials {
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+}

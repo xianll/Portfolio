@@ -22,25 +22,7 @@ body {
     background-size: 100% 100%;
     
 }
-/* #Xian {
-    grid-column: 7 / 9;
-    grid-row: 2 / 3;
-    background: url("/assets/svg/Xian.svg");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-}
-#Li {
-    grid-column: 10 / 13;
-    grid-row: 2 / 3;
-    background: url("/assets/svg/Li.svg");
-    background-repeat:no-repeat;
-}
-#Low {
-    grid-column: 7 / 10;
-    grid-row: 4 / 5;
-    background: url("/assets/svg/Low.svg");
-    background-repeat:no-repeat;
-} */
+
 #aboutme_building {
     grid-column-start: 4;
     grid-column-end: 10;
@@ -49,6 +31,7 @@ body {
     background: url("/assets/svg/aboutme_building.svg");
     background-size: 100% 120%;  
 }
+
 #resume_building {
     grid-column-start: 9;
     grid-column-end: 14;
@@ -57,6 +40,7 @@ body {
     background: url("/assets/svg/resume_building.svg");
     background-size: 110% 110%;
 }
+
 #yellow_building {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -66,6 +50,7 @@ body {
     background-size: 100% 250%;
     background-repeat:no-repeat;
 }
+
 #contact_building {
     grid-column-start: 2;
     grid-column-end: 8;
@@ -74,6 +59,7 @@ body {
     background: url("/assets/svg/contact_building.svg");
     background-size: 100% 200%;
 }
+
 #pink_building {
     grid-column-start: 7;
     grid-column-end: 13;
@@ -82,16 +68,19 @@ body {
     background: url("/assets/svg/pink_building.svg");
     background-size: 100% 100%;
 }
+
 #about_link {
     display: inline-block;
     height: 100%;
     width: 100%;
 }
+
 #about_link p {
     writing-mode: vertical-rl;
     font-size: 2em;
     box-sizing: border-box;
 }
+
 #about_link {
     display: block;
     font-size: 25px;
@@ -100,14 +89,17 @@ body {
     grid-column: 5 / 6;
     grid-row-start: 7;
 }
+
 #resume_link {
     display: block;
     height: 100%;
     width: 100%;
 }
+
 #resume_link p {
     box-sizing: border-box;
 }
+
 #resume_link {
     display: block;
     font-size: 24px;
@@ -117,6 +109,7 @@ body {
     padding-top: 28px;
     padding-left: 8px;
 }
+
 #contact_link {
     display: block;
     height: 100%;
@@ -126,6 +119,7 @@ body {
     font-size: 2em;
     box-sizing: border-box;
 }
+
 #contact_link {
     display: block;
     font-size: 22px;
@@ -135,64 +129,3 @@ body {
     padding-top: 10px;
     padding-left: 7px;
 }
-/* .grid {
-    display: grid;
-    height: 100vh;
-    width: 375px;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);    
-    background-color: #f8c8ac;
-    overflow: hidden;
-} 
-
-#logo {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    background: url("/assets/svg/logo.svg");
-    background-size: 100% 100%;
-    background-position: center center;
-}
-
-#aboutme_building {
-    grid-column-start: 2;
-    grid-column-end: 9;
-    grid-row-start: 3;
-    grid-row-end: 11;
-    background: url("/assets/svg/aboutme_building.svg");
-    background-size: 100% 100%;  
-}
-#resume_building {
-    grid-column-start: 8;
-    grid-column-end: 11;
-    grid-row-start: 5;
-    grid-row-end: 11;
-    background: url("/assets/svg/resume_building.svg");
-    background-size: auto 110%;
-}
-#yellow_building {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 11;
-    background: url("/assets/svg/yellow_building.svg");
-    background-size: 110% 105%;
-    background-position: right;
-    background-position: top;
-}
-#contact_building {
-    grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 9;
-    grid-row-end: 11;
-    background: url("/assets/svg/contact_building.svg");
-    background-size: 100% 100%;
-}
-#pink_building {
-    grid-column-start: 6;
-    grid-column-end: 10;
-    grid-row-start: 10;
-    grid-row-end: 11;
-    background: url("/assets/svg/pink_building.svg");
-    background-size: 100% 105%;
-} */
