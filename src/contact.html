@@ -12,12 +12,12 @@
             <div id="contact_sign">Contact</div>
             <div id="text_background"></div>
             <div id="contact_form">
-                <form name="contact" method="POST" netlify>
+                <!-- <form name="contact" method="POST" >
                     <label>Name:</label>
                     <br>
                     <input type="text" name="name">
                     <br>
-                    <label> Your E-mail:</label>
+                    <label>Your E-mail:</label>
                     <br>
                     <input type="email" name="email">
                     <br>
@@ -26,7 +26,23 @@
                     <textarea name="message"></textarea>
                     <br>
                     <button type="submit">Submit</button>
-                </form>
+                </form> -->
+                <form name="contact" action="https://formspree.io/xianlilow@gmail.com"
+                    method="POST">
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="_name" placeholder="No one">
+                    <br>
+                    <label>Your E-mail:</label>
+                    <br>
+                    <input type="email" name="_replyto" placeholder="facelessmen@braavos.com">
+                    <br>
+                    <label>Message:</label>
+                    <br>
+                    <textarea type="message" name="_message" placeholder="Arya was here." cols="35" rows="12"></textarea>
+                    <br>
+                    <input type="submit" value="Send">
+                </form> 
             </div>
             <div id="socials">
                 <div id="socials_grid">

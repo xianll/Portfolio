@@ -4,6 +4,7 @@
     grid-template-rows: 2fr 2fr 3fr 1fr 8fr 10fr 1fr;
     height: 100vh;
     max-width: 600px;
+    min-width: auto;
     margin: 0 auto;
 }
 body {
@@ -13,7 +14,7 @@ body {
     background: #ff795b;
 }
 #contact_building {
-    background: url("/assets/svg/contact_building.svg");
+    background: url("/docs/svg/contact_building.svg");
     grid-column: 2 / 7;
     grid-row: 2/ 8;
     background-size: 100% 100%;
@@ -29,6 +30,7 @@ body {
 #contact_sign {
     font-family: Monoton;
     font-size: 2.6em;
+    color: #353535;
     grid-column: 4 / 5;
     grid-row: 3 / 4;
     padding-top: 10px;
@@ -55,19 +57,19 @@ body {
 }
 #linkedin {
     grid-column: 1 / 2;
-    background: url("/assets/svg/linkedin.svg");
+    background: url("/docs/svg/linkedin.svg");
     background-size: contain;
     background-repeat: no-repeat;
     }
 #twitter {
     grid-column: 2 / 3;
-    background: url("/assets/svg/twitter.svg");
+    background: url("/docs/svg/twitter.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #slack {
     grid-column: 3 / 4;
-    background: url("/assets/svg/slack.svg");
+    background: url("/docs/svg/slack.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }

@@ -7,15 +7,17 @@ body {
     background: #353535;
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 75px 1fr 1fr 3fr;
+    grid-template-columns: 1fr 75px 1fr 1fr 3fr 30px;
     grid-template-rows: 2fr 3fr 1fr 3fr 7fr 2fr;
+    grid-gap: 10px;
     max-width: 400px;
+    min-width: auto;
     margin: 0 auto;
 }
 
 #aboutme_building {
-    background: url("/assets/svg/aboutme_building_zoom.svg");
-    grid-column: 1 /6;
+    background: url("/docs/svg/aboutme_building_zoom.svg");
+    grid-column: 1 / 7;
     grid-row: 2 / 8;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -24,8 +26,8 @@ body {
 
 #aboutme_text {
     grid-column: 3 / 6;
-    grid-row: 2 / 6;
-    font-size: 1em;
+    grid-row: 2 / 5;
+    font-size: 0.9em;
 }
 
 #aboutme_sign {
@@ -33,6 +35,7 @@ body {
     grid-row: 3 / 6; 
     writing-mode: vertical-rl;
     font-family: Monoton;
+    color: #353535;
     font-size: 2.5em;
     box-sizing: border-box;
     padding-right: 20px; 
@@ -41,7 +44,7 @@ body {
     grid-column: 3 / 6;
     grid-row: 5 / 6;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 20px;
     grid-template-rows: 25px 1fr 1fr 1fr 1fr;
     grid-gap: .5em;
     height: contain;
@@ -53,84 +56,84 @@ body {
 }
 #ruby {
     grid-column: 1 / 2;
-    background: url("/assets/svg/ruby.svg");
+    background: url("/docs/svg/ruby.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #react {
     grid-column: 2 / 3;
     grid-row: 2;
-    background: url("/assets/svg/react.svg");
+    background: url("/docs/svg/react.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #javascript {
     grid-column: 3 / 4;
     grid-row: 2;
-    background: url("/assets/svg/js.svg");
+    background: url("/docs/svg/js.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #rails {
     grid-column: 1 / 2;
     grid-row: 3;
-    background: url("/assets/svg/rails.svg");
+    background: url("/docs/svg/rails.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #mongodb {
     grid-column: 2 / 3;
     grid-row: 3;
-    background: url("/assets/svg/mongodb.svg");
+    background: url("/docs/svg/mongodb.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #github {
     grid-column: 3 / 4;
     grid-row: 3;
-    background: url("/assets/svg/github.svg");
+    background: url("/docs/svg/github.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #css3 {
     grid-column: 4 / 5;
     grid-row: 2;
-    background: url("/assets/svg/css3.svg");
+    background: url("/docs/svg/css3.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #html5 {
     grid-column: 4 / 5;
     grid-row: 3;
-    background: url("/assets/svg/html5.svg");
+    background: url("/docs/svg/html5.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #nodejs {
     grid-column: 3 / 4;
     grid-row: 4;
-    background: url("/assets/svg/nodejs.svg");
+    background: url("/docs/svg/nodejs.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #express {
     grid-column: 2 / 3;
     grid-row: 4;
-    background: url("/assets/svg/express.svg");
+    background: url("/docs/svg/express.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #vuejs {
     grid-column: 4 / 5;
     grid-row: 4;
-    background: url("/assets/svg/vuejs.svg");
+    background: url("/docs/svg/vuejs.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #vscode {
     grid-column: 1 / 2;
     grid-row: 4;
-    background: url("/assets/svg/vscode.svg");
+    background: url("/docs/svg/vscode.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
