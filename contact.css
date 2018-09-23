@@ -41,3 +41,18 @@ body {
     grid-column: 4 / 5;
     grid-row: 6 / 7;
 }
+#socials_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100px;
+    padding-top: 20px;
+}
+#linkedin {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #f8b300;
+    background: url("/assets/svg/linkedin.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
