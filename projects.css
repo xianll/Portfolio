@@ -1,0 +1,31 @@
+#grid {
+    display: grid;
+    background: #f8b300;
+    grid-template-columns: 1fr 3fr 5fr 0.5fr 0.8fr;
+    grid-template-rows: 20px 1fr 10px 3fr 3fr 3fr 3fr 20px; 
+    height: 100vh;
+}
+#resume_building {
+    grid-column: 2 / 5;
+    grid-row: 2 / 9;
+    background: url("/assets/svg/resume_building.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#projects_sign {
+    grid-column: 2 / 3;
+    grid-row: 3 / 6;
+    color: #21afd9;
+    font-family: Monoton;
+    font-size: 1.3em;
+    justify-self: center;
+}
+#text_background {
+    background: #f8c8ac;
+    grid-column: 3 / 4;
+    grid-row: 4 / 8;
+}
+#terminal_app {
+    grid-column: 3 / 4;
+    grid-row: 4/ 5;
+}

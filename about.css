@@ -8,18 +8,18 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 75px 1fr 1fr 3fr;
-    grid-template-rows: 2fr 3fr 8fr 5fr 5fr;
-    margin: 0 auto;
+    grid-template-rows: 2fr 3fr 1fr 3fr 7fr 2fr;
     max-width: 400px;
+    margin: 0 auto;
 }
 
 #aboutme_building {
     background: url("/assets/svg/aboutme_building_zoom.svg");
     grid-column: 1 /6;
-    grid-row: 2 / 6;
+    grid-row: 2 / 8;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-left:
+
 }
 
 #aboutme_text {
@@ -30,11 +30,107 @@ body {
 
 #aboutme_sign {
     grid-column: 2 / 3;
-    grid-row: 3 / 4; 
+    grid-row: 3 / 6; 
     writing-mode: vertical-rl;
     font-family: Monoton;
     font-size: 2.5em;
     box-sizing: border-box;
     padding-right: 20px; 
 }
-
+#skillset_grid {
+    grid-column: 3 / 6;
+    grid-row: 5 / 6;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 25px 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    height: contain;
+}
+#skillset {
+    font-family: Monoton;
+    grid-column: 1 / 5;
+    justify-self: center;
+}
+#ruby {
+    grid-column: 1 / 2;
+    background: url("/assets/svg/ruby.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#react {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    background: url("/assets/svg/react.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#javascript {
+    grid-column: 3 / 4;
+    grid-row: 2;
+    background: url("/assets/svg/js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#rails {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    background: url("/assets/svg/rails.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#mongodb {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    background: url("/assets/svg/mongodb.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#github {
+    grid-column: 3 / 4;
+    grid-row: 3;
+    background: url("/assets/svg/github.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#css3 {
+    grid-column: 4 / 5;
+    grid-row: 2;
+    background: url("/assets/svg/css3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#html5 {
+    grid-column: 4 / 5;
+    grid-row: 3;
+    background: url("/assets/svg/html5.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#nodejs {
+    grid-column: 3 / 4;
+    grid-row: 4;
+    background: url("/assets/svg/nodejs.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#express {
+    grid-column: 2 / 3;
+    grid-row: 4;
+    background: url("/assets/svg/express.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#vuejs {
+    grid-column: 4 / 5;
+    grid-row: 4;
+    background: url("/assets/svg/vuejs.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#vscode {
+    grid-column: 1 / 2;
+    grid-row: 4;
+    background: url("/assets/svg/vscode.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
