@@ -12,16 +12,16 @@
 Upon loading the website, you will be brought to a landing page. On it you will be able to navigate to the About Me, Projects and Contact pages.
 
 The Landing Page
-![alt text](src/docs/svg/landing_page.png "Landing Page")
+![alt text](docs/svg/landing_page.png "Landing Page")
 
 About Me Page
-![alt text](src/docs/svg/about_me.png "About Me Page")
+![alt text](docs/svg/about_me.png "About Me Page")
 
 Contact Page
-![alt text](src/docs/svg/contact.png "Contact Page")
+![alt text](docs/svg/contact.png "Contact Page")
 
 Projects Page
-![alt text](src/docs/svg/projects.png "Projects Page")
+![alt text](docs/svg/projects.png "Projects Page")
 
 ## Tech Stack
 * html
@@ -37,36 +37,36 @@ Projects Page
 Firstly, I went around looking for what I thought would be aesthetically pleasing. Found that the websites I was most drawn to had pastel colour palettes. I created a colour palette by borrowing from the following websites. 
 
 Beyond Beauty
-![alt text](src/docs/inspo/beyond_beauty.png "Beyond Beauty | The Revolution of Desire")
+![alt text](docs/inspo/beyond_beauty.png "Beyond Beauty | The Revolution of Desire")
 
 Innovation is Hard
-![alt text](src/docs/inspo/innovation.png "Innovation is Hard")
+![alt text](docs/inspo/innovation.png "Innovation is Hard")
 
 Settled on a main colour palette
-![alt text](src/docs/inspo/swatches.png "Swatches")
+![alt text](docs/inspo/swatches.png "Swatches")
 
 I liked the way the swatches looked stacked on each other and thought I would try out a "post-it-note" layout.
-![alt text](src/docs/inspo/early_design.png "An earlier design")
+![alt text](docs/inspo/early_design.png "An earlier design")
 Ended up deciding against it because it was too flat.  
 
 I've always admired city skylines and thought it would be fun to recreate "Melbourne". Came up with a few towers in Figma and decided to layer them to create a skyline. I then thought about using building signage as some form of a navbar, each link taking you to a page that focuses on the building the signage was on.
 
 My wireframe results:
-![alt text](src/docs/inspo/yellow.png "Evolution of buildings")
-![alt text](src/docs/inspo/eureka.png "Evolution of buildings")
-![alt text](src/docs/svg/wireframes.png "Wireframes")
+![alt text](docs/inspo/yellow.png "Evolution of buildings")
+![alt text](docs/inspo/eureka.png "Evolution of buildings")
+![alt text](docs/svg/wireframes.png "Wireframes")
 
 The "Monoton" font was chosen because it somewhat resembles neon light signage. The accompanying "Abel" font was picked because it looked simple and clean, a stark contrast, but they both have a sort of curvature to their characters so they're not totally removed from each other.
 
-![alt text](src/docs/inspo/font_choice.png "Font choices and pairings")
+![alt text](docs/inspo/font_choice.png "Font choices and pairings")
 
 I also came up with a personal logo. It consists of the letters "X" and "L" made with the same colour palette as the website.
-![alt text](src/docs/inspo/logo_evolution.png "Evolution of logos")
+![alt text](docs/inspo/logo_evolution.png "Evolution of logos")
 
 
 Another reason I veered away from the initial design was because the colour contrasts are only good between the yellow and dark grey, and the light pink and dark grey. So the colour palette is inconvenient for the post-it notes layout as I'd have to use font-background colour combinations that would be harder for users to read.
 
-![alt text](src/docs/inspo/colour_check.png "Colour checks")
+![alt text](docs/inspo/colour_check.png "Colour checks")
 
 ## Future Development
 ---
