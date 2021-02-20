@@ -45,7 +45,7 @@ body {
     grid-column-end: 5;
     grid-row-start: 8;
     grid-row-end: 11;
-    background: url("/docs/svg/yellow_building.svg");
+    background: url("/docs/svg/yellowBuilding.svg");
     background-size: 100% 250%;
     background-repeat:no-repeat;
 }
